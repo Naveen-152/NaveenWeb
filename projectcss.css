@@ -1,0 +1,219 @@
+html {
+    scroll-behavior:smooth;
+}
+body {
+    position:relative;
+    font-family: Muli, sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Space Mono", monospace;
+}
+nav {
+    background-image: linear-gradient(to bottom right,rgba(156, 36, 156, 0.950),rgba(255, 0, 0, 0.950));
+}
+
+
+#title {
+    font-size:46px;
+    color:black
+}
+.jumbotron {
+    background-image: linear-gradient(to bottom left,purple,red,orange);
+}
+#container {
+    background-image: linear-gradient(to bottom left,rgba(128, 0, 128, 0.800),rgba(255, 0, 0, 0.800),rgba(255, 166, 0, 0.800));
+
+}
+@media screen and (max-width:567px) {
+    #title {
+        font-size:36px;
+    }
+}
+.clearspace {
+    clear:both;
+}
+.skillimg {
+    width:100px;
+    height:100px;
+    float:left;
+}
+.php {
+    height:70px;
+}
+.pyimage {
+    height:90px;
+}
+.progress {
+    width:80%;
+    height:20px;
+    float:right;
+}
+.progressbar {
+    height:20px;
+}
+@media screen and (max-width:700px){
+    .skillimg {
+        width:80px;
+        height:80px;
+    }
+    .php {
+        height:50px;
+    }
+    .progressbar {
+        height: 16px;
+    }
+    .progress {
+        height:16px;
+    }
+}
+@media screen and (max-width:600px){
+    .skillimg {
+        width:70px;
+        height:70px;
+    }
+    .php {
+        height:40px;
+    }
+    .progressbar {
+        height: 16px;
+    }
+    .progress {
+        height:16px;
+    }
+}
+@media screen and (max-width:550px){
+    .skillimg {
+        width:60px;
+        height:60px;
+    }
+    .php {
+        height:40px;
+    }
+    .progressbar {
+        height: 16px;
+    }
+    .progress {
+        height:16px;
+    }
+}
+@media screen and (max-width:450px){
+  .skillimg {
+        width:50px;
+        height:50px;
+    }
+    .php {
+        height:30px;
+    }
+    .progressbar {
+        height: 12px;
+    }
+    .progress {
+        height:12px;
+        width:75%;
+    }
+
+}
+#naveenpic {
+    box-sizing: border-box;
+    width:25%;
+    display:block;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+}
+#carouselprevicon {
+    width:50px;
+    height:50px;
+}
+#carouselnexticon {
+    width:50px;
+    height:50px;
+}
+@media screen and (max-width:700px) {
+  #carouselprevicon {
+    width:30px;
+    height:30px;
+}
+#carouselnexticon {
+    width:30px;
+    height:30px;
+}
+}
+#contactstyle {
+    background-color: #ddd;
+    border-radius:10px;
+}
+#instalogo {
+    font-size: 30px;
+}
+#fblogo {
+    font-size: 30px;
+}
+#linkedinlogo {
+    font-size: 30px;
+    
+}
+@media screen and (min-width:467px) and (max-width:667px) {
+    #instalogo {
+        font-size: 25px;
+        
+    }
+    #fblogo {
+        font-size: 25px;
+    }
+    #footercontent {
+        font-size:25px;
+    }  
+    #linkedinlogo {
+        font-size: 25px;
+    } 
+}
+@media screen and (max-width:470px) {
+    #instalogo {
+        font-size: 20px;
+    }
+    #fblogo {
+        font-size: 20px;
+    }
+    #footercontent {
+        font-size:20px;
+    }
+    .footemail {
+        font-size:13px;
+    }  
+    #linkedinlogo {
+        font-size: 20px;
+    } 
+}
+@keyframes skillanimate {
+    0% {
+        left: 0;
+        top:0;
+    }
+    25% {
+        left: 0;
+        top:-15px;
+    }
+    50% {
+        left: 0;
+        top:0px;
+    }
+    75% {
+        left: 0;
+        top:18px;
+    }
+    100% {
+        left: 0;
+        top:0px;
+    }
+
+    
+}
+.skillimg {
+    animation-name: skillanimate;
+    animation-duration:4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
